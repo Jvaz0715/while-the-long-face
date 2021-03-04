@@ -15,9 +15,9 @@ function numberDoubler(num) {
 
 function stringRepeater(str) {
     // Your code here
-    let outputString = str;
+    let outputString = '';
     while (outputString.length < 10) {
-        outputString = outputString + 1;
+        outputString = outputString +  str;
     }
     
     return outputString;
