@@ -17,7 +17,7 @@ function stringRepeater(str) {
     // Your code here
     let outputString = '';
     while (outputString.length < 10) {
-        outputString = outputString +  str;
+        outputString = outputString + str;
     }
     
     return outputString;
@@ -26,6 +26,11 @@ function stringRepeater(str) {
 
 function makeDivisible(x, y) {
     // Your code here
+    let output = x;
+    while (x % y === 0) {
+        output += 1;
+    }
+    return output;
 }
 
 module.exports = {
