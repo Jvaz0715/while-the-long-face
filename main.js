@@ -26,11 +26,10 @@ function stringRepeater(str) {
 
 function makeDivisible(x, y) {
     // Your code here
-    let output = x;
-    while (x % y === 0) {
-        output += 1;
+    while (x % y !== 0) {
+        x += 1;
     }
-    return output;
+    return x;
 }
 
 module.exports = {
